@@ -1,0 +1,131 @@
+.valider{
+    background-color: rgb(61, 205, 190);
+    color: rgb(255,255,255);
+}
+form{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+input{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+}
+textarea{
+    width: 400px;
+    height: 80px;
+    text-align: center; 
+}
+#tabInf{
+    float: left;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    margin-left: 5%;
+}
+#tabSup{
+    float: right;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    margin-right: 5%;
+}
+table{
+    width: 200px;
+    height: auto;
+}
+tr th{
+	font-weight:bold;
+    }
+tr th, tr td{
+	padding:5px;
+}
+th{
+    text-align: center;
+}
+td{
+    width: auto;
+    height: auto;
+	border: 3px solid #C1DAD7;
+}
+header{
+    width: 100%;
+    height: 150px;
+    margin-top: 0%;
+    text-align: center; 
+    background-color: rgb(61, 205, 190);
+  }
+  body {
+      background-color: #cac3bc
+  }
+  nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  nav ul ul {
+      display: none;
+  }
+  nav ul li:hover > ul {
+      display: block;
+  }
+  nav ul {
+      background-color: #fff;
+      margin-top: 10px;
+      padding: 0 20px;  
+      list-style: none;
+      position: relative;
+      display: inline-table;
+      margin-right: -80px;
+  }
+  nav ul li {
+      float: left;
+  }
+  nav ul li:hover {
+      border-bottom: 5px solid #f5aa65;
+      color: #fff;
+  }
+  nav ul li a:hover {
+      color: #000;
+  }
+
+  nav ul li a {
+      display: block; 
+      padding: 15px 15px;
+      font-family: 'PT Sans', sans-serif;
+      color: #000; 
+      text-decoration: none;
+  }
+  nav ul ul {
+      background-color:#fff;
+      border-radius: 0px; 
+      padding: 0;
+      position: absolute;
+      top: 100%;
+      box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  }
+  nav ul ul li {
+      float: none; 
+      position: relative;
+  }
+  nav ul ul li a {
+      padding: 15px 40px;
+      color: #000;
+  }
+  nav ul ul:before {
+      content: "";
+      display: block;
+      height: 20px;
+      position: absolute;
+      top: -20px;
+      width: 100%;
+  }
+  div ul{
+    list-style: none;  
+  }
+div ul li {
+    float: left;
+    margin-left: 5px;
+}
